@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["@stylistic/stylelint-plugin"],
+  "rules": {
+    "@stylistic/block-opening-brace-space-before": "always",
+    "@stylistic/declaration-colon-space-after": "always",
+    "@stylistic/declaration-colon-space-before": "never",
+    "@stylistic/function-comma-space-after": "always",
+
+    "declaration-block-single-line-max-declarations": 0,
+    "@stylistic/declaration-block-semicolon-newline-after": "always",
+    "rule-empty-line-before": [
+      "always",
+      { "ignore": ["first-nested", "after-comment"] }
+    ]
+  }
+}
