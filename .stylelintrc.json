@@ -4,16 +4,25 @@
   "rules": {
     "selector-class-pattern": null,
 
+    "@stylistic/string-quotes": "single",
+    "color-function-notation": "modern",
+
     "@stylistic/block-opening-brace-space-before": "always",
     "@stylistic/declaration-colon-newline-after": "always-multi-line",
     "@stylistic/declaration-colon-space-before": "never",
-    "@stylistic/function-comma-space-after": "always",
+    "@stylistic/function-comma-space-after": "always-single-line",
+    "@stylistic/function-comma-newline-after": "always-multi-line",
     "@stylistic/declaration-block-semicolon-newline-after": "always",
+
+    "keyframes-name-pattern": null,
+    "no-descending-specificity": null,
 
     "declaration-block-single-line-max-declarations": 0,
     "rule-empty-line-before": [
       "always",
-      { "ignore": ["first-nested", "after-comment"] }
+      {
+        "ignore": ["first-nested", "after-comment"]
+      }
     ]
   }
 }
